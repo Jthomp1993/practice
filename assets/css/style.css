@@ -5,6 +5,15 @@
     background-color: #c92b2b;
 }
 
+.dropdown-menu {
+    position: relative;
+    top: 4rem;
+}
+
+.modal-title {
+    font-family: "Exo", sans-serif;
+}
+
 #nav-link-login {
     font-size: 15px;
     padding-top: 40px;
