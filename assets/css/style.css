@@ -5,42 +5,6 @@
     background-color: #c92b2b;
 }
 
-
-
-.container-fluid {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.fcb-hero-image {
-    background-color: #797979;
-    height: 400px;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.fixture-container {
-    background-color: #ffffff;
-    position: absolute;
-    margin-left: 200px;
-    margin-top: 20px;
-    width: 400px;
-    height: 200px;
-    border: 2px solid #797979;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
-
-.score-box {
-    background-color: #797979;
-    height: 50px;
-    width: 75px;
-    
-}
-
 #nav-link-login {
     font-size: 15px;
     padding-top: 40px;
@@ -53,9 +17,7 @@
     color: #ffffff;
 }
 
-.container-fluid img {
-    max-width: 1690px;
-}
+
 
 
 
