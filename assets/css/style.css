@@ -1,29 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800&display=swap');
 
+/*-------------------------------- Navbar */
 
-.navbar {
+i {
+    margin-right: 5px;
+}
+
+.navbar-wrapper {
     background-color: #c92b2b;
 }
 
 .dropdown-menu {
     position: relative;
     top: 4rem;
+    background-color: #c92b2b;
+    border: none;
+
 }
 
-.modal-title {
-    font-family: "Exo", sans-serif;
+.dropdown-item {
+    color: #ffffff;
 }
 
-#nav-link-login {
-    font-size: 15px;
-    padding-top: 40px;
-}
 
-.navbar a {
+li a {
     font-family: "Exo", sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: #ffffff;
+}
+
+#nav-link-login {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+/*-------------------------------- Fixtures */
+
+.my-container {
+    margin-top: 2rem;
+}
+
+.fixture-divider hr {
+    color: #797979;
+    height: 3px;
+
+}
+
+.fixture-date p {
+     font-size: 16px;
+     font-family: "Exo", sans-serif;
+     font-weight: 400;
+     color: #797979;
+     
+}
+
+.fixture-date h3 {
+    font-size: 24px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    color: #797979;
+    line-height: 3px;
+}
+
+.fixture-teams h3 {
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+}
+
+.fixture-logo img {
+    width: 57px;
+    height: 57px;
+}
+
+.fixture-kick-off p {
+    font-size: 16px;
+     font-family: "Exo", sans-serif;
+     font-weight: 400;
+     color: #797979;
+}
+
+.fixture-kick-off h3 {
+      font-size: 24px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    color: #797979;
+    line-height: 3px;
+}
+
+.fixutre-button button {
+    font-family: "Exo", sans-serif;
+    font-size: 16px;
 }
 
 
