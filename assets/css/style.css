@@ -41,6 +41,12 @@ li a {
 
 .my-container {
     margin-top: 2rem;
+    
+}
+
+.my-row {
+    align-items: center;
+    justify-content: center;
 }
 
 .fixture-divider hr {
@@ -65,6 +71,8 @@ li a {
     line-height: 3px;
 }
 
+
+
 .fixture-teams h3 {
     font-size: 16px;
     font-family: 'Exo', sans-serif;
@@ -72,8 +80,9 @@ li a {
 }
 
 .fixture-logo img {
-    width: 57px;
-    height: 57px;
+    width: 47px;
+    height: 47px;
+    
 }
 
 .fixture-kick-off p {
@@ -81,6 +90,7 @@ li a {
      font-family: "Exo", sans-serif;
      font-weight: 400;
      color: #797979;
+     text-align: center;
 }
 
 .fixture-kick-off h3 {
@@ -89,11 +99,13 @@ li a {
     font-weight: 600;
     color: #797979;
     line-height: 3px;
+    text-align: center;
 }
 
 .fixutre-button button {
     font-family: "Exo", sans-serif;
     font-size: 16px;
+    float: right;
 }
 
 
