@@ -207,14 +207,21 @@ li a {
 
 /*-------------------------------- Fixtures method 2 */
 
-.body {
-    margin-left: 10px;
-    margin-right: 10px;
-}
+
 
 .fcb-fixure-wrapper {
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding-left: 15px;
+}
+
+.fixture-header h3 {
+    font-family: "Exo", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #797979;
+    margin-bottom: 2rem;
+    padding-left: 15px;
+    
 }
 
 .fcb-fixture-content {
@@ -274,7 +281,7 @@ li a {
 
 .fixutre-banner-content button {
     font-family: "Exo", sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     color: #fff;
     background-color: #c92b2b;
 }
