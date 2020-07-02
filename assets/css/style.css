@@ -205,7 +205,79 @@ li a {
 }
 
 
+/*-------------------------------- Fixtures method 2 */
 
+.body {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fcb-fixure-wrapper {
+    margin-top: 2rem;
+    padding-left: 15px;
+}
+
+.fcb-fixture-content {
+    margin-top: 2rem;
+}
+
+.fcb-fixutre-league h3 {
+    font-size: 16px;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    color: #797979;
+}
+
+.fcb-fixture-content h3 {
+    font-size: 16px;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    color: #505050;
+
+}
+
+.fcb-fixutre-team {
+    justify-content: center;
+}
+
+.fixture-kick-off {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fixture-kick-off h3 {
+    font-family: "Exo", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #505050;
+}
+
+.fixture-team-logo img {
+    width: 37px;
+    height: 37px;
+}
+
+.fixutre-banner {
+    border-bottom: 5px solid black;
+}
+
+.fixutre-banner-content {
+    margin-top: 2rem;
+    margin-block-end: 2rem;
+}
+
+.fixutre-banner-content img {
+    width: 37px;
+    height: 37px;
+}
+
+.fixutre-banner-content button {
+    font-family: "Exo", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: #c92b2b;
+}
 
 
 
