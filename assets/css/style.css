@@ -209,7 +209,7 @@ li a {
 
 
 
-.fcb-fixure-wrapper {
+.fcb-fixture-wrapper {
     margin-top: 1rem;
     padding-left: 15px;
 }
@@ -228,8 +228,15 @@ li a {
     margin-top: 2rem;
 }
 
-.fcb-fixutre-league h3 {
+.fcb-fixture-league h3 {
     font-size: 16px;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    color: #505050;
+}
+
+.fcb-fixture-stadium h3 {
+    font-size: 14px;
     font-family: "Exo", sans-serif;
     font-weight: 500;
     color: #797979;
@@ -243,8 +250,8 @@ li a {
 
 }
 
-.fcb-fixutre-team {
-    justify-content: center;
+.fixutre-home-name h3 {
+    float: right;
 }
 
 .fixture-kick-off {
@@ -260,18 +267,25 @@ li a {
     color: #505050;
 }
 
-.fixture-team-logo img {
+.fixture-home-logo img {
+    width: 37px;
+    height: 37px;
+    float: right;
+}
+
+.fixture-away-logo img {
     width: 37px;
     height: 37px;
 }
 
+
 .fixutre-banner {
-    border-bottom: 5px solid black;
+    border: 5px solid black;
 }
 
 .fixutre-banner-content {
     margin-top: 2rem;
-    margin-block-end: 2rem;
+    
 }
 
 .fixutre-banner-content img {
