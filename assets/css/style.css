@@ -209,7 +209,7 @@ li a {
 
 
 
-.fcb-fixture-wrapper {
+.fixture-wrapper {
     margin-top: 1rem;
     padding-left: 15px;
 }
@@ -224,7 +224,8 @@ li a {
     
 }
 
-.fcb-fixture-content {
+
+.fixture-content {
     margin-top: 2rem;
 }
 
@@ -242,7 +243,7 @@ li a {
     color: #797979;
 }
 
-.fcb-fixture-content h3 {
+.fixture-content h3 {
     font-size: 16px;
     font-family: "Exo", sans-serif;
     font-weight: 500;
@@ -298,6 +299,7 @@ li a {
     font-size: 12px;
     color: #fff;
     background-color: #c92b2b;
+    float: right;
 }
 
 
