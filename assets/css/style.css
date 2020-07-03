@@ -10,6 +10,11 @@ i {
     background-color: #c92b2b;
 }
 
+.navbar-wrapper img {
+    width: 47px;
+    height: 47px;
+}
+
 .dropdown-menu {
     position: relative;
     top: 4rem;
@@ -37,83 +42,6 @@ li a {
     color: #ffffff;
 }
 
-/*-------------------------------- Fixtures */
-
-.my-container {
-    margin-top: 2rem;
-    width: 60rem;
-    
-    
-}
-
-.my-row {
-    align-items: center;
-    justify-content: center;
-}
-
-.fixture-divider hr {
-    color: #797979;
-    height: 3px;
-
-}
-
-.fixture-date p {
-     font-size: 16px;
-     font-family: "Exo", sans-serif;
-     font-weight: 400;
-     color: #797979;
-    
-     
-}
-
-.fixture-date h3 {
-    font-size: 24px;
-    font-family: 'Exo', sans-serif;
-    font-weight: 600;
-    color: #797979;
-    line-height: 3px;
-}
-
-
-
-.fixture-teams h3 {
-    font-size: 16px;
-    font-family: 'Exo', sans-serif;
-    font-weight: 600;
-}
-
-.fixture-logo img {
-    width: 37px;
-    height: 37px;
-    
-}
-
-.fixture-kick-off p {
-    font-size: 16px;
-     font-family: "Exo", sans-serif;
-     font-weight: 400;
-     color: #797979;
-     text-align: center;
-     
-     
-}
-
-.fixture-kick-off h3 {
-      font-size: 24px;
-    font-family: 'Exo', sans-serif;
-    font-weight: 600;
-    color: #797979;
-    line-height: 3px;
-    text-align: center;
-    
-}
-
-.fixutre-button button {
-    font-family: "Exo", sans-serif;
-    font-size: 12px;
-    float: right;
-    
-}
 
 /*-------------------------------- Fixtures method 2 */
 
@@ -150,61 +78,6 @@ li a {
     
 }
 
-
-
-.fixture-date-2 p {
-    font-size: 16px;
-     font-family: "Exo", sans-serif;
-     font-weight: 400;
-     color: #797979;
-}
-
-
-.fixture-button-2 button {
-    font-family: "Exo", sans-serif;
-    font-size: 12px;
-}
-
-.fixture-home-team {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    margin-left: 1rem;
-    
-}
-
-
-.fixture-home-team h3 {
-    font-size: 16px;
-    font-family: "Exo", sans-serif;
-    font-weight: 600;
-    text-align: center;
-    padding-top: 1rem;
-}
-
-.fixture-home-team img {
-    width: 47px;
-    height: 47px;
-}
-
-
-
-.fixute-kick-off-2 {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-}
-
-.fixute-kick-off-2 h3 {
-     font-size: 24px;
-    font-family: 'Exo', sans-serif;
-    font-weight: 600;
-    color: #797979;
-    line-height: 3px;
-    text-align: center;
-}
-
-
 /*-------------------------------- Fixtures method 2 */
 
 
@@ -212,15 +85,20 @@ li a {
 .fixture-wrapper {
     margin-top: 1rem;
     padding-left: 15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #ececec;
 }
 
 .fixture-header h3 {
     font-family: "Exo", sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 600;
     color: #797979;
-    margin-bottom: 2rem;
+    margin-top: 2rem; 
+    margin-bottom: 1rem;
     padding-left: 15px;
+    
     
 }
 
@@ -294,7 +172,7 @@ li a {
     height: 37px;
 }
 
-.fixutre-banner-content button {
+.fixutre-banner-content a {
     font-family: "Exo", sans-serif;
     font-size: 12px;
     color: #fff;
